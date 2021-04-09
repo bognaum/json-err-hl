@@ -1,3 +1,4 @@
+import setStyle from "./set-style.js";
 import SyntaxHlFk from "./syntax-highlight-framework/syntax-hl-fk.js";
 
 const {
@@ -114,7 +115,9 @@ const
 		}),
 	};
 
-export default new SyntaxHlFk.Highlighter(__main_, "json-err-hl");
-
-import setStyle from "./set-style.js";
-setStyle("json-err-hl");
+export default class JsonErrHlter extends SyntaxHlFk.Highlighter {
+	constructor (clPref="json-err-hl") {
+		super(__main_, clPref);
+		setStyle(clPref);
+	}
+}

@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="stylesheet" href="./../themes.css"> -->
 	<style>
 		.container {
 			margin: 10px 100px;
@@ -190,7 +189,8 @@
 		<script type="text/javascript" src="get-code-1.js"></script>
 
 		<script type="module">
-			import jsonHl from "./../json-errors-hl.js";
+			import JsonErrHlter from "./../json-errors-hl.js";
+			const jsonHl = new JsonErrHlter();
 
 			jsonHl.highlightTextContent(pre_1);
 			jsonHl.scrollToFirstError  (pre_1);
