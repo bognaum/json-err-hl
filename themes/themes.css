@@ -1,60 +1,86 @@
-pre.syntax-hl-fk {
-  background-color: #444;
-  color: #ccc;
-  -moz-tab-size: 4;
-  tab-size: 4;
-  overflow: auto;
-  max-height: 500px;
-  padding: 20px;
-  font-family: consolas, monospace; }
-  pre.syntax-hl-fk *::selection {
-    background-color: #000;
-    background-color: rgba(120, 120, 120, 0.5); }
-  pre.syntax-hl-fk .syntax-hl-fk__line {
-    margin-left: -20px; }
-    pre.syntax-hl-fk .syntax-hl-fk__line > * {
-      display: table-cell; }
-    pre.syntax-hl-fk .syntax-hl-fk__line .syntax-hl-fk__line-number {
-      width: 50px;
-      min-width: 50px;
-      max-width: 50px;
-      text-align: right;
-      background-color: #333;
-      padding-right: 10px;
-      margin-right: 5px;
-      transition: all .2s; }
-      pre.syntax-hl-fk .syntax-hl-fk__line .syntax-hl-fk__line-number:before {
-        content: attr(data-line-number) ""; }
-    pre.syntax-hl-fk .syntax-hl-fk__line .syntax-hl-fk__line-indent {
-      padding-left: 5px; }
-    pre.syntax-hl-fk .syntax-hl-fk__line .syntax-hl-fk__line-text {
-      padding-left: 20px;
-      white-space: pre-wrap;
-      word-break: break-word; }
-      pre.syntax-hl-fk .syntax-hl-fk__line .syntax-hl-fk__line-text:before {
-        content: "";
-        margin-left: -20px; }
+pre.syntax-hl-fk.calm-theme {
+  background-color: #222; }
+  pre.syntax-hl-fk.calm-theme .syntax-hl-fk__line-text {
+    color: #eee; }
+    pre.syntax-hl-fk.calm-theme .syntax-hl-fk__line-text .string_v {
+      color: #ddc; }
+    pre.syntax-hl-fk.calm-theme .syntax-hl-fk__line-text .string_n {
+      color: #78a; }
+    pre.syntax-hl-fk.calm-theme .syntax-hl-fk__line-text .slashed {
+      color: #f90; }
+    pre.syntax-hl-fk.calm-theme .syntax-hl-fk__line-text .number {
+      color: #f90; }
+    pre.syntax-hl-fk.calm-theme .syntax-hl-fk__line-text .bool {
+      color: #f90; }
+    pre.syntax-hl-fk.calm-theme .syntax-hl-fk__line-text ._null {
+      color: #98f; }
+    pre.syntax-hl-fk.calm-theme .syntax-hl-fk__line-text .error {
+      color: #fff;
+      background-color: #e48;
+      box-shadow: inset 0 0 2px #fff; }
 
-pre.syntax-hl-fk .syntax-hl-fk__line .syntax-hl-fk__line-number {
+pre.syntax-hl-fk.calm-clarified-theme .syntax-hl-fk__line .syntax-hl-fk__line-number {
   background-color: #444; }
 
-pre.syntax-hl-fk .syntax-hl-fk__line-text {
+pre.syntax-hl-fk.calm-clarified-theme .syntax-hl-fk__line-text {
   color: #eee; }
-  pre.syntax-hl-fk .syntax-hl-fk__line-text .string_v {
+  pre.syntax-hl-fk.calm-clarified-theme .syntax-hl-fk__line-text .string_v {
     color: #ddc; }
-  pre.syntax-hl-fk .syntax-hl-fk__line-text .string_n {
+  pre.syntax-hl-fk.calm-clarified-theme .syntax-hl-fk__line-text .string_n {
     color: #78a; }
-  pre.syntax-hl-fk .syntax-hl-fk__line-text .bool {
+  pre.syntax-hl-fk.calm-clarified-theme .syntax-hl-fk__line-text .bool {
     color: #fb6; }
-  pre.syntax-hl-fk .syntax-hl-fk__line-text .number {
+  pre.syntax-hl-fk.calm-clarified-theme .syntax-hl-fk__line-text .number {
     color: #fb6; }
-  pre.syntax-hl-fk .syntax-hl-fk__line-text .slashed {
+  pre.syntax-hl-fk.calm-clarified-theme .syntax-hl-fk__line-text .slashed {
     color: #fb6; }
-  pre.syntax-hl-fk .syntax-hl-fk__line-text ._null {
+  pre.syntax-hl-fk.calm-clarified-theme .syntax-hl-fk__line-text ._null {
     color: #98f; }
-  pre.syntax-hl-fk .syntax-hl-fk__line-text .error {
+  pre.syntax-hl-fk.calm-clarified-theme .syntax-hl-fk__line-text .error {
     color: #fff;
     background-color: #e48;
     box-shadow: inset 0 0 2px #fff; }
+
+pre.syntax-hl-fk.monokai-theme {
+  background-color: #333; }
+  pre.syntax-hl-fk.monokai-theme .syntax-hl-fk__line-text .string_n {
+    color: #3bd; }
+  pre.syntax-hl-fk.monokai-theme .syntax-hl-fk__line-text .string_v {
+    color: #da5; }
+  pre.syntax-hl-fk.monokai-theme .syntax-hl-fk__line-text .slashed {
+    color: #98f; }
+  pre.syntax-hl-fk.monokai-theme .syntax-hl-fk__line-text .number {
+    color: #98f; }
+  pre.syntax-hl-fk.monokai-theme .syntax-hl-fk__line-text .bool {
+    color: #98f; }
+  pre.syntax-hl-fk.monokai-theme .syntax-hl-fk__line-text ._null {
+    color: #e48; }
+  pre.syntax-hl-fk.monokai-theme .syntax-hl-fk__line-text .error {
+    color: #fff;
+    background-color: #e48;
+    box-shadow: inset 0 0 2px #fff; }
+
+pre.syntax-hl-fk.monokai-clarified-theme .syntax-hl-fk__line-text .string_n {
+  color: #3bd; }
+
+pre.syntax-hl-fk.monokai-clarified-theme .syntax-hl-fk__line-text .string_v {
+  color: #da5; }
+
+pre.syntax-hl-fk.monokai-clarified-theme .syntax-hl-fk__line-text .slashed {
+  color: #98f; }
+
+pre.syntax-hl-fk.monokai-clarified-theme .syntax-hl-fk__line-text .number {
+  color: #98f; }
+
+pre.syntax-hl-fk.monokai-clarified-theme .syntax-hl-fk__line-text .bool {
+  color: #98f; }
+
+pre.syntax-hl-fk.monokai-clarified-theme .syntax-hl-fk__line-text ._null {
+  color: #e48; }
+
+pre.syntax-hl-fk.monokai-clarified-theme .syntax-hl-fk__line-text .error {
+  color: #fff;
+  background-color: #e48;
+  box-shadow: inset 0 0 2px #fff; }
 
 /*# sourceMappingURL=themes.css.map */
