@@ -1,8 +1,6 @@
 export default function setStyle(clPref) {
 
-	const style = eHTML(`<style class="${clPref}__theme-style"></style>`);
-
-	style.textContent = `
+	const cssCode = `
 	pre.${clPref}.calm-theme {
 	  background-color: #222; }
 	  pre.${clPref}.calm-theme .${clPref}__line-text {
@@ -90,7 +88,18 @@ export default function setStyle(clPref) {
 
 	 `;
 
-	document.head.appendChild(style);
+	const styleClassName = `${clPref}__theme-style`;
+
+	const styleAlreadyExists = [].some.call(
+		document.querySelectorAll(`style.${styleClassName}`), 
+		(v) => v.textContent === cssCode
+	);
+
+	if (! styleAlreadyExists) {
+		const style = eHTML(`<style class="${styleClassName}"></style>`);
+		style.textContent = cssCode;
+		document.head.appendChild(style);
+	}
 }
 
 
