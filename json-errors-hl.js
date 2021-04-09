@@ -115,3 +115,6 @@ const
 	};
 
 export default new SyntaxHlFk.Highlighter(__main_, "json-err-hl");
+
+import setStyle from "./set-style.js";
+setStyle("json-err-hl");
