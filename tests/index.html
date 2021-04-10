@@ -173,19 +173,19 @@
 		<h2>Themes</h2>
 
 		<h3>Calm</h3>
-		<pre class="json-err-hl gr-1 calm-theme"></pre>
+		<pre class="theme-test-group calm-theme"></pre>
 		<script type="text/javascript" src="get-code-1.js"></script>
 
 		<h3>Calm clarified</h3>
-		<pre class="json-err-hl gr-1 calm-clarified-theme"></pre>
+		<pre class="theme-test-group calm-clarified-theme"></pre>
 		<script type="text/javascript" src="get-code-1.js"></script>
 
 		<h3>Monokai</h3>
-		<pre class="json-err-hl gr-1 monokai-theme"></pre>
+		<pre class="theme-test-group monokai-theme"></pre>
 		<script type="text/javascript" src="get-code-1.js"></script>
 
 		<h3>Monokai clarified</h3>
-		<pre class="json-err-hl gr-1 monokai-clarified-theme"></pre>
+		<pre class="theme-test-group monokai-clarified-theme"></pre>
 		<script type="text/javascript" src="get-code-1.js"></script>
 
 		<script type="module">
@@ -203,8 +203,10 @@
 			jsonHl.highlightTextContent(pre_5);
 			jsonHl.scrollToFirstError  (pre_5);
 
-			document.querySelectorAll("pre.gr-1").forEach((v) => {
-				jsonHl.highlightTextContent(v);
+			const jsonHl_2 = new JsonErrHlter("theme-test-group");
+
+			document.querySelectorAll("pre.theme-test-group").forEach((v) => {
+				jsonHl_2.highlightTextContent(v);
 			});
 		</script>
 	</div>
