@@ -1,3 +1,3 @@
-import jsonErrorsHl from "./json-errors-hl.js";
+import JsonErrHl from "./json-err-hl.js";
 
-export default jsonErrorsHl;
+export default JsonErrHl;
