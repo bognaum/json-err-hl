@@ -1,84 +1,84 @@
-pre.json-err-hl.calm-theme {
+.json-err-hl.calm-theme {
   background-color: #222; }
-  pre.json-err-hl.calm-theme .json-err-hl__line-text {
+  .json-err-hl.calm-theme .json-err-hl__line-text {
     color: #eee; }
-    pre.json-err-hl.calm-theme .json-err-hl__line-text .string_v {
+    .json-err-hl.calm-theme .json-err-hl__line-text .string_v {
       color: #ddc; }
-    pre.json-err-hl.calm-theme .json-err-hl__line-text .string_n {
+    .json-err-hl.calm-theme .json-err-hl__line-text .string_n {
       color: #78a; }
-    pre.json-err-hl.calm-theme .json-err-hl__line-text .slashed {
+    .json-err-hl.calm-theme .json-err-hl__line-text .slashed {
       color: #f90; }
-    pre.json-err-hl.calm-theme .json-err-hl__line-text .number {
+    .json-err-hl.calm-theme .json-err-hl__line-text .number {
       color: #f90; }
-    pre.json-err-hl.calm-theme .json-err-hl__line-text .bool {
+    .json-err-hl.calm-theme .json-err-hl__line-text .bool {
       color: #f90; }
-    pre.json-err-hl.calm-theme .json-err-hl__line-text ._null {
+    .json-err-hl.calm-theme .json-err-hl__line-text ._null {
       color: #98f; }
-    pre.json-err-hl.calm-theme .json-err-hl__line-text .error {
+    .json-err-hl.calm-theme .json-err-hl__line-text .error {
       color: #fff;
       background-color: #e48;
       box-shadow: inset 0 0 2px #fff; }
 
-pre.json-err-hl.calm-clarified-theme .json-err-hl__line .json-err-hl__line-number {
+.json-err-hl.calm-clarified-theme .json-err-hl__line .json-err-hl__line-number {
   background-color: #444; }
 
-pre.json-err-hl.calm-clarified-theme .json-err-hl__line-text {
+.json-err-hl.calm-clarified-theme .json-err-hl__line-text {
   color: #eee; }
-  pre.json-err-hl.calm-clarified-theme .json-err-hl__line-text .string_v {
+  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .string_v {
     color: #ddc; }
-  pre.json-err-hl.calm-clarified-theme .json-err-hl__line-text .string_n {
+  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .string_n {
     color: #78a; }
-  pre.json-err-hl.calm-clarified-theme .json-err-hl__line-text .bool {
+  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .bool {
     color: #fb6; }
-  pre.json-err-hl.calm-clarified-theme .json-err-hl__line-text .number {
+  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .number {
     color: #fb6; }
-  pre.json-err-hl.calm-clarified-theme .json-err-hl__line-text .slashed {
+  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .slashed {
     color: #fb6; }
-  pre.json-err-hl.calm-clarified-theme .json-err-hl__line-text ._null {
+  .json-err-hl.calm-clarified-theme .json-err-hl__line-text ._null {
     color: #98f; }
-  pre.json-err-hl.calm-clarified-theme .json-err-hl__line-text .error {
+  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .error {
     color: #fff;
     background-color: #e48;
     box-shadow: inset 0 0 2px #fff; }
 
-pre.json-err-hl.monokai-theme {
+.json-err-hl.monokai-theme {
   background-color: #333; }
-  pre.json-err-hl.monokai-theme .json-err-hl__line-text .string_n {
+  .json-err-hl.monokai-theme .json-err-hl__line-text .string_n {
     color: #3bd; }
-  pre.json-err-hl.monokai-theme .json-err-hl__line-text .string_v {
+  .json-err-hl.monokai-theme .json-err-hl__line-text .string_v {
     color: #da5; }
-  pre.json-err-hl.monokai-theme .json-err-hl__line-text .slashed {
+  .json-err-hl.monokai-theme .json-err-hl__line-text .slashed {
     color: #98f; }
-  pre.json-err-hl.monokai-theme .json-err-hl__line-text .number {
+  .json-err-hl.monokai-theme .json-err-hl__line-text .number {
     color: #98f; }
-  pre.json-err-hl.monokai-theme .json-err-hl__line-text .bool {
+  .json-err-hl.monokai-theme .json-err-hl__line-text .bool {
     color: #98f; }
-  pre.json-err-hl.monokai-theme .json-err-hl__line-text ._null {
+  .json-err-hl.monokai-theme .json-err-hl__line-text ._null {
     color: #e48; }
-  pre.json-err-hl.monokai-theme .json-err-hl__line-text .error {
+  .json-err-hl.monokai-theme .json-err-hl__line-text .error {
     color: #fff;
     background-color: #e48;
     box-shadow: inset 0 0 2px #fff; }
 
-pre.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .string_n {
+.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .string_n {
   color: #3bd; }
 
-pre.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .string_v {
+.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .string_v {
   color: #da5; }
 
-pre.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .slashed {
+.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .slashed {
   color: #98f; }
 
-pre.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .number {
+.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .number {
   color: #98f; }
 
-pre.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .bool {
+.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .bool {
   color: #98f; }
 
-pre.json-err-hl.monokai-clarified-theme .json-err-hl__line-text ._null {
+.json-err-hl.monokai-clarified-theme .json-err-hl__line-text ._null {
   color: #e48; }
 
-pre.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .error {
+.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .error {
   color: #fff;
   background-color: #e48;
   box-shadow: inset 0 0 2px #fff; }

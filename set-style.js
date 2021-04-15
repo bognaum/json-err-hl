@@ -1,87 +1,87 @@
 export default function setStyle(clPref) {
 
 	const cssCode = `
-	pre.${clPref}.calm-theme {
+	.${clPref}.calm-theme {
 	  background-color: #222; }
-	  pre.${clPref}.calm-theme .${clPref}__line-text {
+	  .${clPref}.calm-theme .${clPref}__line-text {
 	    color: #eee; }
-	    pre.${clPref}.calm-theme .${clPref}__line-text .string_v {
+	    .${clPref}.calm-theme .${clPref}__line-text .string_v {
 	      color: #ddc; }
-	    pre.${clPref}.calm-theme .${clPref}__line-text .string_n {
+	    .${clPref}.calm-theme .${clPref}__line-text .string_n {
 	      color: #78a; }
-	    pre.${clPref}.calm-theme .${clPref}__line-text .slashed {
+	    .${clPref}.calm-theme .${clPref}__line-text .slashed {
 	      color: #f90; }
-	    pre.${clPref}.calm-theme .${clPref}__line-text .number {
+	    .${clPref}.calm-theme .${clPref}__line-text .number {
 	      color: #f90; }
-	    pre.${clPref}.calm-theme .${clPref}__line-text .bool {
+	    .${clPref}.calm-theme .${clPref}__line-text .bool {
 	      color: #f90; }
-	    pre.${clPref}.calm-theme .${clPref}__line-text ._null {
+	    .${clPref}.calm-theme .${clPref}__line-text ._null {
 	      color: #98f; }
-	    pre.${clPref}.calm-theme .${clPref}__line-text .error {
+	    .${clPref}.calm-theme .${clPref}__line-text .error {
 	      color: #fff;
 	      background-color: #e48;
 	      box-shadow: inset 0 0 2px #fff; }
 
-	pre.${clPref}.calm-clarified-theme .${clPref}__line .${clPref}__line-number {
+	.${clPref}.calm-clarified-theme .${clPref}__line .${clPref}__line-number {
 	  background-color: #444; }
 
-	pre.${clPref}.calm-clarified-theme .${clPref}__line-text {
+	.${clPref}.calm-clarified-theme .${clPref}__line-text {
 	  color: #eee; }
-	  pre.${clPref}.calm-clarified-theme .${clPref}__line-text .string_v {
+	  .${clPref}.calm-clarified-theme .${clPref}__line-text .string_v {
 	    color: #ddc; }
-	  pre.${clPref}.calm-clarified-theme .${clPref}__line-text .string_n {
+	  .${clPref}.calm-clarified-theme .${clPref}__line-text .string_n {
 	    color: #78a; }
-	  pre.${clPref}.calm-clarified-theme .${clPref}__line-text .bool {
+	  .${clPref}.calm-clarified-theme .${clPref}__line-text .bool {
 	    color: #fb6; }
-	  pre.${clPref}.calm-clarified-theme .${clPref}__line-text .number {
+	  .${clPref}.calm-clarified-theme .${clPref}__line-text .number {
 	    color: #fb6; }
-	  pre.${clPref}.calm-clarified-theme .${clPref}__line-text .slashed {
+	  .${clPref}.calm-clarified-theme .${clPref}__line-text .slashed {
 	    color: #fb6; }
-	  pre.${clPref}.calm-clarified-theme .${clPref}__line-text ._null {
+	  .${clPref}.calm-clarified-theme .${clPref}__line-text ._null {
 	    color: #98f; }
-	  pre.${clPref}.calm-clarified-theme .${clPref}__line-text .error {
+	  .${clPref}.calm-clarified-theme .${clPref}__line-text .error {
 	    color: #fff;
 	    background-color: #e48;
 	    box-shadow: inset 0 0 2px #fff; }
 
-	pre.${clPref}.monokai-theme {
+	.${clPref}.monokai-theme {
 	  background-color: #333; }
-	  pre.${clPref}.monokai-theme .${clPref}__line-text .string_n {
+	  .${clPref}.monokai-theme .${clPref}__line-text .string_n {
 	    color: #3bd; }
-	  pre.${clPref}.monokai-theme .${clPref}__line-text .string_v {
+	  .${clPref}.monokai-theme .${clPref}__line-text .string_v {
 	    color: #da5; }
-	  pre.${clPref}.monokai-theme .${clPref}__line-text .slashed {
+	  .${clPref}.monokai-theme .${clPref}__line-text .slashed {
 	    color: #98f; }
-	  pre.${clPref}.monokai-theme .${clPref}__line-text .number {
+	  .${clPref}.monokai-theme .${clPref}__line-text .number {
 	    color: #98f; }
-	  pre.${clPref}.monokai-theme .${clPref}__line-text .bool {
+	  .${clPref}.monokai-theme .${clPref}__line-text .bool {
 	    color: #98f; }
-	  pre.${clPref}.monokai-theme .${clPref}__line-text ._null {
+	  .${clPref}.monokai-theme .${clPref}__line-text ._null {
 	    color: #e48; }
-	  pre.${clPref}.monokai-theme .${clPref}__line-text .error {
+	  .${clPref}.monokai-theme .${clPref}__line-text .error {
 	    color: #fff;
 	    background-color: #e48;
 	    box-shadow: inset 0 0 2px #fff; }
 
-	pre.${clPref}.monokai-clarified-theme .${clPref}__line-text .string_n {
+	.${clPref}.monokai-clarified-theme .${clPref}__line-text .string_n {
 	  color: #3bd; }
 
-	pre.${clPref}.monokai-clarified-theme .${clPref}__line-text .string_v {
+	.${clPref}.monokai-clarified-theme .${clPref}__line-text .string_v {
 	  color: #da5; }
 
-	pre.${clPref}.monokai-clarified-theme .${clPref}__line-text .slashed {
+	.${clPref}.monokai-clarified-theme .${clPref}__line-text .slashed {
 	  color: #98f; }
 
-	pre.${clPref}.monokai-clarified-theme .${clPref}__line-text .number {
+	.${clPref}.monokai-clarified-theme .${clPref}__line-text .number {
 	  color: #98f; }
 
-	pre.${clPref}.monokai-clarified-theme .${clPref}__line-text .bool {
+	.${clPref}.monokai-clarified-theme .${clPref}__line-text .bool {
 	  color: #98f; }
 
-	pre.${clPref}.monokai-clarified-theme .${clPref}__line-text ._null {
+	.${clPref}.monokai-clarified-theme .${clPref}__line-text ._null {
 	  color: #e48; }
 
-	pre.${clPref}.monokai-clarified-theme .${clPref}__line-text .error {
+	.${clPref}.monokai-clarified-theme .${clPref}__line-text .error {
 	  color: #fff;
 	  background-color: #e48;
 	  box-shadow: inset 0 0 2px #fff; }
