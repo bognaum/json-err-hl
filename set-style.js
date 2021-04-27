@@ -1,92 +1,115 @@
 export default function setStyle(clPref) {
 
 	const cssCode = `
-	.${clPref}.calm-theme {
+	.json-err-hl.calm-theme {
 	  background-color: #222; }
-	  .${clPref}.calm-theme .${clPref}__line-text {
+	  .json-err-hl.calm-theme .json-err-hl__line .json-err-hl__line-number.error {
+	    color: #fff;
+	    background-color: #e48; }
+	  .json-err-hl.calm-theme .json-err-hl__line-text {
 	    color: #eee; }
-	    .${clPref}.calm-theme .${clPref}__line-text .string_v {
+	    .json-err-hl.calm-theme .json-err-hl__line-text .string {
 	      color: #ddc; }
-	    .${clPref}.calm-theme .${clPref}__line-text .string_n {
+	    .json-err-hl.calm-theme .json-err-hl__line-text .string_v {
+	      color: #ddc; }
+	    .json-err-hl.calm-theme .json-err-hl__line-text .string_n {
 	      color: #78a; }
-	    .${clPref}.calm-theme .${clPref}__line-text .slashed {
+	    .json-err-hl.calm-theme .json-err-hl__line-text .slashed {
 	      color: #f90; }
-	    .${clPref}.calm-theme .${clPref}__line-text .number {
+	    .json-err-hl.calm-theme .json-err-hl__line-text .number {
 	      color: #f90; }
-	    .${clPref}.calm-theme .${clPref}__line-text .bool {
+	    .json-err-hl.calm-theme .json-err-hl__line-text .bool {
 	      color: #f90; }
-	    .${clPref}.calm-theme .${clPref}__line-text ._null {
+	    .json-err-hl.calm-theme .json-err-hl__line-text ._null {
 	      color: #98f; }
-	    .${clPref}.calm-theme .${clPref}__line-text .error {
+	    .json-err-hl.calm-theme .json-err-hl__line-text .error {
 	      color: #fff;
 	      background-color: #e48;
 	      box-shadow: inset 0 0 2px #fff; }
 
-	.${clPref}.calm-clarified-theme .${clPref}__line .${clPref}__line-number {
+	.json-err-hl.calm-clarified-theme .json-err-hl__line .json-err-hl__line-number.error {
+	  color: #fff;
+	  background-color: #e48; }
+
+	.json-err-hl.calm-clarified-theme .json-err-hl__line .json-err-hl__line-number {
 	  background-color: #444; }
 
-	.${clPref}.calm-clarified-theme .${clPref}__line-text {
+	.json-err-hl.calm-clarified-theme .json-err-hl__line-text {
 	  color: #eee; }
-	  .${clPref}.calm-clarified-theme .${clPref}__line-text .string_v {
+	  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .string {
 	    color: #ddc; }
-	  .${clPref}.calm-clarified-theme .${clPref}__line-text .string_n {
+	  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .string_v {
+	    color: #ddc; }
+	  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .string_n {
 	    color: #78a; }
-	  .${clPref}.calm-clarified-theme .${clPref}__line-text .bool {
+	  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .bool {
 	    color: #fb6; }
-	  .${clPref}.calm-clarified-theme .${clPref}__line-text .number {
+	  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .number {
 	    color: #fb6; }
-	  .${clPref}.calm-clarified-theme .${clPref}__line-text .slashed {
+	  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .slashed {
 	    color: #fb6; }
-	  .${clPref}.calm-clarified-theme .${clPref}__line-text ._null {
+	  .json-err-hl.calm-clarified-theme .json-err-hl__line-text ._null {
 	    color: #98f; }
-	  .${clPref}.calm-clarified-theme .${clPref}__line-text .error {
+	  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .error {
 	    color: #fff;
 	    background-color: #e48;
 	    box-shadow: inset 0 0 2px #fff; }
 
-	.${clPref}.monokai-theme {
+	.json-err-hl.monokai-theme {
 	  background-color: #333; }
-	  .${clPref}.monokai-theme .${clPref}__line-text .string_n {
+	  .json-err-hl.monokai-theme .json-err-hl__line .json-err-hl__line-number.error {
+	    color: #fff;
+	    background-color: #e48; }
+	  .json-err-hl.monokai-theme .json-err-hl__line-text .string_n {
 	    color: #3bd; }
-	  .${clPref}.monokai-theme .${clPref}__line-text .string_v {
+	  .json-err-hl.monokai-theme .json-err-hl__line-text .string {
 	    color: #da5; }
-	  .${clPref}.monokai-theme .${clPref}__line-text .slashed {
+	  .json-err-hl.monokai-theme .json-err-hl__line-text .string_v {
+	    color: #da5; }
+	  .json-err-hl.monokai-theme .json-err-hl__line-text .slashed {
 	    color: #98f; }
-	  .${clPref}.monokai-theme .${clPref}__line-text .number {
+	  .json-err-hl.monokai-theme .json-err-hl__line-text .number {
 	    color: #98f; }
-	  .${clPref}.monokai-theme .${clPref}__line-text .bool {
+	  .json-err-hl.monokai-theme .json-err-hl__line-text .bool {
 	    color: #98f; }
-	  .${clPref}.monokai-theme .${clPref}__line-text ._null {
+	  .json-err-hl.monokai-theme .json-err-hl__line-text ._null {
 	    color: #e48; }
-	  .${clPref}.monokai-theme .${clPref}__line-text .error {
+	  .json-err-hl.monokai-theme .json-err-hl__line-text .error {
 	    color: #fff;
 	    background-color: #e48;
 	    box-shadow: inset 0 0 2px #fff; }
 
-	.${clPref}.monokai-clarified-theme .${clPref}__line-text .string_n {
+	.json-err-hl.monokai-clarified-theme .json-err-hl__line .json-err-hl__line-number.error {
+	  color: #fff;
+	  background-color: #e48; }
+
+	.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .string_n {
 	  color: #3bd; }
 
-	.${clPref}.monokai-clarified-theme .${clPref}__line-text .string_v {
+	.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .string {
 	  color: #da5; }
 
-	.${clPref}.monokai-clarified-theme .${clPref}__line-text .slashed {
+	.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .string_v {
+	  color: #da5; }
+
+	.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .slashed {
 	  color: #98f; }
 
-	.${clPref}.monokai-clarified-theme .${clPref}__line-text .number {
+	.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .number {
 	  color: #98f; }
 
-	.${clPref}.monokai-clarified-theme .${clPref}__line-text .bool {
+	.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .bool {
 	  color: #98f; }
 
-	.${clPref}.monokai-clarified-theme .${clPref}__line-text ._null {
+	.json-err-hl.monokai-clarified-theme .json-err-hl__line-text ._null {
 	  color: #e48; }
 
-	.${clPref}.monokai-clarified-theme .${clPref}__line-text .error {
+	.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .error {
 	  color: #fff;
 	  background-color: #e48;
 	  box-shadow: inset 0 0 2px #fff; }
 
-	 `;
+	 `.replaceAll("json-err-hl", clPref);
 
 	const styleClassName = `${clPref}__theme-style`;
 

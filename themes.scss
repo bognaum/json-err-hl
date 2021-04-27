@@ -1,9 +1,13 @@
 $pref : "json-err-hl";
 
 .#{$pref}.calm-theme {
+	.#{$pref}__line .#{$pref}__line-number.error {
+		color: #fff; background-color: #e48;
+	}
 	background-color: #222;
 	.#{$pref}__line-text {
 		color: #eee;
+		.string      {color: #ddc;}
 		.string_v    {color: #ddc;}
 		.string_n    {color: #78a;}
 		.slashed     {color: #f90;}
@@ -16,12 +20,16 @@ $pref : "json-err-hl";
 }
 
 .#{$pref}.calm-clarified-theme {
+	.#{$pref}__line .#{$pref}__line-number.error {
+		color: #fff; background-color: #e48;
+	}
 	.#{$pref}__line .#{$pref}__line-number {
 		background-color: #444;
 		// border-right: 3px solid #ccc;
 	}
 	.#{$pref}__line-text {
 		color: #eee;
+		.string        {color: #ddc;}
 		.string_v      {color: #ddc;}
 		.string_n      {color: #78a;}
 		.bool          {color: #fb6;}
@@ -34,9 +42,13 @@ $pref : "json-err-hl";
 
 .#{$pref}.monokai-theme {
 	background-color: #333;
+	.#{$pref}__line .#{$pref}__line-number.error {
+		color: #fff; background-color: #e48;
+	}
 	.#{$pref}__line-text {
 		// .string_n    {color: #e48;}
 		.string_n    {color: #3bd;}
+		.string      {color: #da5;}
 		.string_v    {color: #da5;}
 		.slashed     {color: #98f;}
 		.number      {color: #98f;}
@@ -48,9 +60,13 @@ $pref : "json-err-hl";
 
 .#{$pref}.monokai-clarified-theme {
 	// background-color: #333;
+	.#{$pref}__line .#{$pref}__line-number.error {
+		color: #fff; background-color: #e48;
+	}
 	.#{$pref}__line-text {
 		// .string_n    {color: #e48;}
 		.string_n    {color: #3bd;}
+		.string      {color: #da5;}
 		.string_v    {color: #da5;}
 		.slashed     {color: #98f;}
 		.number      {color: #98f;}
