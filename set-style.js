@@ -3,9 +3,6 @@ export default function setStyle(clPref) {
 	const cssCode = `
 	.json-err-hl.calm-theme {
 	  background-color: #222; }
-	  .json-err-hl.calm-theme .json-err-hl__line .json-err-hl__line-number.error {
-	    color: #fff;
-	    background-color: #e48; }
 	  .json-err-hl.calm-theme .json-err-hl__line-text {
 	    color: #eee; }
 	    .json-err-hl.calm-theme .json-err-hl__line-text .string {
@@ -22,14 +19,6 @@ export default function setStyle(clPref) {
 	      color: #f90; }
 	    .json-err-hl.calm-theme .json-err-hl__line-text ._null {
 	      color: #98f; }
-	    .json-err-hl.calm-theme .json-err-hl__line-text .error {
-	      color: #fff;
-	      background-color: #e48;
-	      box-shadow: inset 0 0 2px #fff; }
-
-	.json-err-hl.calm-clarified-theme .json-err-hl__line .json-err-hl__line-number.error {
-	  color: #fff;
-	  background-color: #e48; }
 
 	.json-err-hl.calm-clarified-theme .json-err-hl__line .json-err-hl__line-number {
 	  background-color: #444; }
@@ -50,16 +39,9 @@ export default function setStyle(clPref) {
 	    color: #fb6; }
 	  .json-err-hl.calm-clarified-theme .json-err-hl__line-text ._null {
 	    color: #98f; }
-	  .json-err-hl.calm-clarified-theme .json-err-hl__line-text .error {
-	    color: #fff;
-	    background-color: #e48;
-	    box-shadow: inset 0 0 2px #fff; }
 
 	.json-err-hl.monokai-theme {
 	  background-color: #333; }
-	  .json-err-hl.monokai-theme .json-err-hl__line .json-err-hl__line-number.error {
-	    color: #fff;
-	    background-color: #e48; }
 	  .json-err-hl.monokai-theme .json-err-hl__line-text .string_n {
 	    color: #3bd; }
 	  .json-err-hl.monokai-theme .json-err-hl__line-text .string {
@@ -74,14 +56,6 @@ export default function setStyle(clPref) {
 	    color: #98f; }
 	  .json-err-hl.monokai-theme .json-err-hl__line-text ._null {
 	    color: #e48; }
-	  .json-err-hl.monokai-theme .json-err-hl__line-text .error {
-	    color: #fff;
-	    background-color: #e48;
-	    box-shadow: inset 0 0 2px #fff; }
-
-	.json-err-hl.monokai-clarified-theme .json-err-hl__line .json-err-hl__line-number.error {
-	  color: #fff;
-	  background-color: #e48; }
 
 	.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .string_n {
 	  color: #3bd; }
@@ -104,12 +78,7 @@ export default function setStyle(clPref) {
 	.json-err-hl.monokai-clarified-theme .json-err-hl__line-text ._null {
 	  color: #e48; }
 
-	.json-err-hl.monokai-clarified-theme .json-err-hl__line-text .error {
-	  color: #fff;
-	  background-color: #e48;
-	  box-shadow: inset 0 0 2px #fff; }
-
-	 `.replaceAll("json-err-hl", clPref);
+	 `.replaceAll(/json-err-hl/g, clPref);
 
 	const styleClassName = `${clPref}__theme-style`;
 

@@ -1,9 +1,6 @@
 $pref : "json-err-hl";
 
 .#{$pref}.calm-theme {
-	.#{$pref}__line .#{$pref}__line-number.error {
-		color: #fff; background-color: #e48;
-	}
 	background-color: #222;
 	.#{$pref}__line-text {
 		color: #eee;
@@ -14,15 +11,11 @@ $pref : "json-err-hl";
 		.number      {color: #f90;}
 		.bool        {color: #f90;}
 		._null       {color: #98f;}
-		.error       {color: #fff; background-color: #e48; box-shadow: inset 0 0 2px #fff;}
 	}
 
 }
 
 .#{$pref}.calm-clarified-theme {
-	.#{$pref}__line .#{$pref}__line-number.error {
-		color: #fff; background-color: #e48;
-	}
 	.#{$pref}__line .#{$pref}__line-number {
 		background-color: #444;
 		// border-right: 3px solid #ccc;
@@ -36,15 +29,11 @@ $pref : "json-err-hl";
 		.number        {color: #fb6;}
 		.slashed       {color: #fb6;}
 		._null         {color: #98f;}
-		.error         {color: #fff; background-color: #e48; box-shadow: inset 0 0 2px #fff;}
 	}
 }
 
 .#{$pref}.monokai-theme {
 	background-color: #333;
-	.#{$pref}__line .#{$pref}__line-number.error {
-		color: #fff; background-color: #e48;
-	}
 	.#{$pref}__line-text {
 		// .string_n    {color: #e48;}
 		.string_n    {color: #3bd;}
@@ -54,15 +43,11 @@ $pref : "json-err-hl";
 		.number      {color: #98f;}
 		.bool        {color: #98f;}
 		._null       {color: #e48;}
-		.error       {color: #fff; background-color: #e48; box-shadow: inset 0 0 2px #fff;}
 	}
 }
 
 .#{$pref}.monokai-clarified-theme {
 	// background-color: #333;
-	.#{$pref}__line .#{$pref}__line-number.error {
-		color: #fff; background-color: #e48;
-	}
 	.#{$pref}__line-text {
 		// .string_n    {color: #e48;}
 		.string_n    {color: #3bd;}
@@ -72,6 +57,5 @@ $pref : "json-err-hl";
 		.number      {color: #98f;}
 		.bool        {color: #98f;}
 		._null       {color: #e48;}
-		.error       {color: #fff; background-color: #e48; box-shadow: inset 0 0 2px #fff;}
 	}
 }
