@@ -99,7 +99,7 @@ export default class JsonErrHlter extends SyntaxHlFk.Highlighter {
 		setStyle(clPref);
 	}
 
-	get version () { return "1.0.0"; }
+	get version () { return "1.1.0"; }
 
 	getHighlighted (
 		templ, firstLineNum=1, cssClasses="calm-clarified-theme") {
