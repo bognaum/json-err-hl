@@ -98,4 +98,6 @@ export default class JsonErrHlter extends SyntaxHlFk.Highlighter {
 		super(__main_, clPref);
 		setStyle(clPref);
 	}
+
+	get version () { return "1.0.0"; }
 }
