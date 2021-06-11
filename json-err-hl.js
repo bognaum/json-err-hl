@@ -100,4 +100,9 @@ export default class JsonErrHlter extends SyntaxHlFk.Highlighter {
 	}
 
 	get version () { return "1.0.0"; }
+
+	getHighlighted (
+		templ, firstLineNum=1, cssClasses="calm-clarified-theme") {
+		return super.getHighlighted(templ, firstLineNum, cssClasses);
+	}
 }

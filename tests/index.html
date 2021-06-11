@@ -187,6 +187,47 @@
 		<pre class="theme-test-group monokai-clarified-theme"></pre>
 		<script type="text/javascript" src="get-code-1.js"></script>
 
+		<h2>Inserted</h2>
+
+		<script type="module">
+			import JsonErrHlter from "./../json-err-hl.js";
+			const jsonHl = new JsonErrHlter();
+
+			document.querySelector(".container").appendChild(
+				jsonHl.getHighlighted(`
+					[
+						{
+							"td": "Доменное имя",
+							"ch": [
+								{
+									"bd": "домен 3-го уровня",
+									"td": "Хост",
+									"ch": "mail"
+								},{
+									"td": "",
+									"ch": "."
+								},{
+									"bd": "домен 2-го уровня",
+									"td": "Доменная \n зона",
+									"ch": "google"
+								},{
+									"td": "",
+									"ch": "."
+								},{
+									"bd": "домен 1-го уровня",
+									"td": "Доменная \n зона",
+									"ch": "com"
+								},{
+									"bd": "Корневой домен. \n Можно не писать.",
+									"ch": "."
+								}
+							]
+						}
+					]
+				`)
+			);
+		</script>
+
 		<script type="module">
 			import JsonErrHlter from "./../json-err-hl.js";
 			const jsonHl = new JsonErrHlter();
