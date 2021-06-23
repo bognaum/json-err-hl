@@ -1,7 +1,7 @@
 import setStyle from "./set-style.js";
 import SyntaxHlFk from "./syntax-highlight-framework/syntax-hl-fk.js";
 
-const version = "1.1.3";
+const version = "1.1.4";
 
 const {
 	token,
